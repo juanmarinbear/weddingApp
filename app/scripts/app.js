@@ -9,44 +9,41 @@ angular.module('weddingAppApp', [
   $urlRouterProvider.otherwise('/');
 
   $stateProvider
-  .state('index', {
+  .state('main', {
     url: '/',
-    templateUrl: 'views/main.html',
-    controller:'MainCtrl'
-  })
-  .state('/about', {
-    url: '/about',
-    templateUrl: 'views/about.html',
-    controller: 'AboutCtrl'
-  })
-  .state('/reception', {
-    url: '/reception',
-    templateUrl: 'views/reception.html',
-    controller: 'ReceptionCtrl'
-  })
-  .state('/accommodations', {
-    url: '/accommodations',
-    templateUrl: 'views/accommodations.html',
-    controller: 'AccommodationsCtrl'
-  })
-  .state('/dresscode', {
-    url: '/dresscode',
-    templateUrl: 'views/dresscode.html',
-    controller: 'DresscodeCtrl'
-  })
-  .state('/transportation', {
-    url: '/transportation',
-    templateUrl: 'views/transportation.html',
-    controller: 'TransportationCtrl'
-  })
-  .state('/rsvp', {
-    url: '/rsvp',
-    templateUrl: 'views/rsvp.html',
-    controller: 'RsvpCtrl'
-  })
-  .state('/checklist', {
-    url: '/checklist',
-    templateUrl: 'views/checklist.html',
-    controller: 'ChecklistCtrl'
+    views: {
+      '': {
+        templateUrl: 'views/main.html',
+        controller: 'MainCtrl'
+      },
+      'about@main': {
+        templateUrl: 'views/about.html',
+        controller: 'AboutCtrl'
+      },
+      'reception@main': {
+        templateUrl: 'views/reception.html',
+        controller: 'ReceptionCtrl'
+      },
+      'accommodations@main': {
+        templateUrl: 'views/accommodations.html',
+        controller: 'AccommodationsCtrl'
+      },
+      'transportation@main': {
+        templateUrl: 'views/transportation.html',
+        controller: 'TransportationCtrl'
+      },
+      'dresscode@main': {
+        templateUrl: 'views/dresscode.html',
+        controller: 'DresscodeCtrl'
+      },
+      'rsvp@main': {
+        templateUrl: 'views/rsvp.html',
+        controller: 'RsvpCtrl'
+      },
+      'checklist@main': {
+        templateUrl: 'views/checklist.html',
+        controller: 'ChecklistCtrl'
+      },
+    }
   });
 });
