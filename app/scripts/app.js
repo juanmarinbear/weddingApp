@@ -1,11 +1,12 @@
 'use strict';
 
 angular.module('weddingAppApp', [
+  'ngAnimate',
   'ngResource',
   'ui.router'
 ])
 .config(function ($stateProvider, $urlRouterProvider) {
-  //delete $httpProvider.defaults.headers.common['X-Requested-With'];
+
   $urlRouterProvider.otherwise('/');
 
   $stateProvider
