@@ -1,13 +1,18 @@
-<div class="prev" ng-show="!views.about">
+<div class="prev">
   <p ng-click="prev()">Prev</p>
 </div>
-<div class="view" ui-view="about" ng-show="views.about"></div>
-<div class="view" ui-view="reception" ng-show="views.reception"></div>
-<div class="view" ui-view="accommodations" ng-show="views.accommodations"></div>
-<div class="view" ui-view="transportation" ng-show="views.transportation"></div>
-<div class="view" ui-view="dresscode" ng-show="views.dresscode"></div>
-<div class="view" ui-view="rsvp" ng-show="views.rsvp"></div>
-<div class="view" ui-view="checklist" ng-show="views.checklist"></div>
-<div class="next" ng-show="!views.checklist">
+  <div id="fixed-view-container">
+    <div id="view-container">
+      <div class="view view-active" ui-view="about"></div>
+      <div class="view" ui-view="reception"></div>
+      <div class="view" ui-view="accommodations"></div>
+      <div class="view" ui-view="transportation"></div>
+      <div class="view" ui-view="dresscode"></div>
+      <div class="view" ui-view="rsvp"></div>
+      <div class="view" ui-view="checklist"></div>
+    </div>
+  </div>
+<div class="next">
   <p ng-click="next()">Next</p>
 </div>
+{{ state | json }}

@@ -2,58 +2,32 @@
 
 angular.module('weddingAppApp')
 .controller('MainCtrl', function ($scope) {
+  var views, active, index;
+  var viewContainer;
 
-  $scope.views = {};
-  $scope.views.active = 'about';
-
-  $scope.state = {
-    'about': {
-      'prev': '',
-      'next': 'reception'
-    },
-    'reception': {
-      'prev': 'about',
-      'next': 'accommodations'
-    },
-    'accommodations': {
-      'prev': 'reception',
-      'next': 'transportation'
-    },
-    'transportation': {
-      'prev': 'accommodations',
-      'next': 'dresscode'
-    },
-    'dresscode': {
-      'prev': 'transportation',
-      'next': 'rsvp'
-    },
-    'rsvp': {
-      'prev': 'dresscode',
-      'next': 'checklist'
-    },
-    'checklist': {
-      'prev': 'rsvp',
-      'next': ''
-    }
-  };
-
-  $scope.views.about = true;
-  $scope.views.reception = false;
-  $scope.views.accommodations = false;
-  $scope.views.transportation = false;
-  $scope.views.dresscode = false;
-  $scope.views.rsvp = false;
-  $scope.views.checklist = false;
+  $scope.$watch('$viewContentLoaded', function() {
+    views = document.getElementsByClassName('view');
+    index = 0;
+    viewContainer = document.getElementById('view-container');
+  });
 
   $scope.next = function() {
-    $scope.views[$scope.views.active] = false;
-    $scope.views.active = $scope.state[$scope.views.active].next;
-    $scope.views[$scope.views.active] = true;
+    var offset;
+    if(index >= views.length - 1) {
+      return;
+    }
+    index += 1;
+    offset = index * 100;
+    angular.element(viewContainer).css({top: '-' + offset + '%'});
   };
 
   $scope.prev = function() {
-    $scope.views[$scope.views.active] = false;
-    $scope.views.active = $scope.state[$scope.views.active].prev;
-    $scope.views[$scope.views.active] = true;
+    var offset;
+    if(index === 0) {
+      return;
+    }
+    index -= 1;
+    offset = index * 100;
+    angular.element(viewContainer).css({top: '-' + offset + '%'});
   };
 });

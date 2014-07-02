@@ -2,7 +2,6 @@
 
 angular.module('weddingAppApp', [
   'ngAnimate',
-  'ngResource',
   'ui.router'
 ])
 .config(function ($stateProvider, $urlRouterProvider) {

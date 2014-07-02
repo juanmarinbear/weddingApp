@@ -28,37 +28,37 @@
 
           <!-- Add your site or application content here -->
 
-          <div ui-view=""></div>
+          <ui-view></ui-view>
 
           <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
-          <script>
+          <!-- <script>
             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-                })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-                ga('create', 'UA-XXXXX-X');
-                ga('send', 'pageview');
-              </script>
+            ga('create', 'UA-XXXXX-X');
+            ga('send', 'pageview');
+          </script> --!>
 
 
-              <script src="bower_components/angular/angular.js"></script>
+          <script src="bower_components/angular/angular.js"></script>
 
-              <!-- build:js scripts/modules.js -->
-              <script src="bower_components/angular-resource/angular-resource.js"></script>
-              <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
-              <!-- endbuild -->
+          <!-- build:js scripts/modules.js -->
+          <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+          <script src="bower_components/angular-animate/angular-animate.js"></script>
+          <!-- endbuild -->
 
-              <!-- build:js({.tmp,app}) scripts/scripts.js -->
-              <script src="scripts/app.js"></script>
-              <script src="scripts/controllers/main.js"></script>
-              <script src="scripts/controllers/about.js"></script>
-              <script src="scripts/controllers/reception.js"></script>
-              <script src="scripts/controllers/accommodations.js"></script>
-              <script src="scripts/controllers/dresscode.js"></script>
-              <script src="scripts/controllers/transportation.js"></script>
-              <script src="scripts/controllers/rsvp.js"></script>
-              <script src="scripts/controllers/checklist.js"></script>
-              <!-- endbuild -->
-            </body>
-          </html>
+          <!-- build:js({.tmp,app}) scripts/scripts.js -->
+          <script src="scripts/app.js"></script>
+          <script src="scripts/controllers/main.js"></script>
+          <script src="scripts/controllers/about.js"></script>
+          <script src="scripts/controllers/reception.js"></script>
+          <script src="scripts/controllers/accommodations.js"></script>
+          <script src="scripts/controllers/dresscode.js"></script>
+          <script src="scripts/controllers/transportation.js"></script>
+          <script src="scripts/controllers/rsvp.js"></script>
+          <script src="scripts/controllers/checklist.js"></script>
+          <!-- endbuild -->
+        </body>
+      </html>
