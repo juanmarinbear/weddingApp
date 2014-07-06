@@ -16,6 +16,10 @@ angular.module('weddingAppApp', [
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       },
+      'home@main': {
+        templateUrl: 'views/home.html',
+        controller: 'HomeCtrl'
+      },
       'about@main': {
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl'

@@ -4,24 +4,29 @@ angular.module('weddingAppApp')
 .controller('RsvpCtrl', ['$scope', 'Geo', 'Parse', function ($scope, Geo, Parse) {
   $scope.data = {};
   $scope.geo = Geo;
-  $scope.data.country = {};
-  $scope.data.country.code = '';
   $scope.loading = false;
   $scope.submitted = false;
   $scope.error = {};
   $scope.hasError = false;
 
   $scope.submit = function() {
+
     $scope.loading = true;
+
     if($scope.rsvpForm.$valid) {
+      console.log('Form valid!');
       var Rsvp = Parse.Object.extend('Rsvp');
       var rsvp = new Rsvp($scope.data);
-      rsvp.set('country', $scope.data.country.name);
-      rsvp.set('state', $scope.data.state.name);
-      console.log(rsvp);
+
+      if($scope.data.rsvp === 'true') {
+        rsvp.set('country', $scope.data.country.name);
+        rsvp.set('state', $scope.data.state.name);
+      }
+
       rsvp.save(null, {
         success: function(rsvp) {
           $scope.loading = false;
+          $scope.$apply();
         },
         error: function(rsvp, error) {
           $scope.error.code = error.code;
@@ -33,6 +38,8 @@ angular.module('weddingAppApp')
         }
       });
     } else {
+      console.log('Invalid form');
+      $scope.loading = false;
       $scope.submitted = true;
     }
   }
