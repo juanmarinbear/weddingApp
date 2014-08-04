@@ -1,5 +1,5 @@
-<div class="prev">
-  <p ng-click="prev()">Prev</p>
+<div class="prev" ng-hide="page.first">
+  <p ng-click="prev()"><i class="icon ion-chevron-left"></i></p>
 </div>
   <div id="fixed-view-container">
     <div id="view-container">
@@ -13,7 +13,6 @@
       <div class="view bg bg-checklist" ui-view="checklist"></div>
     </div>
   </div>
-<div class="next">
-  <p ng-click="next()">Next</p>
+<div class="next" ng-hide="page.last">
+  <p ng-click="next()"><i class="icon ion-chevron-right"></i></p>
 </div>
-{{ state | json }}

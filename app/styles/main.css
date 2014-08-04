@@ -7,14 +7,8 @@ html, body {
 
 body {
   background: #fafafa;
-  font-family: 'Alegreya Sans', sans-serif;
   color: #333;
   overflow: hidden;
-}
-
-@font-face {
-  font-family: "Ionicon";
-  src: url("/font/ionicons-1.5.2/ionicons.ttf");
 }
 
 /* Background Images */
@@ -22,6 +16,8 @@ body {
 .bg {
   background-repeat: no-repeat;
   background-size: cover;
+  /* background-size: 100% auto;
+  background-position: center center;*/
 }
 
 .bg-home {
@@ -58,18 +54,27 @@ body {
 
 /* Text Styling */
 
+p, ul, li, input, select, label {
+  font-family: "roboto_slabregular";
+}
+
 a, a:visited {
   color: white;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Roboto Slab', serif;
   color: white;
   text-align: center;
+  font-family: "ralewayregular"
 }
 
 th, tr {
   text-align: center
+}
+
+.header {
+  font-size: 4rem;
+  font-family: "amperzandregular";
 }
 
 .img-container {
@@ -78,7 +83,6 @@ th, tr {
 
 .img-container img {
   border: 0.5rem solid white;
-  width: 500px;
   display: inline;
 }
 
@@ -87,7 +91,7 @@ th, tr {
 }
 
 .well {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.6);
   padding: 1rem;
   margin: 1rem;
   border-radius: 1rem;
@@ -133,9 +137,10 @@ th, tr {
 
 .prev, .next {
   text-align: center;
-  background-color: red;
   position: fixed;
-  top: 50%;
+  font-size: 6rem;
+  color: #fff;
+  top: 30%;
   z-index: 1;
 }
 
@@ -188,3 +193,4 @@ th, tr {
   margin: 1rem;
 }
 
+/* Checklist */

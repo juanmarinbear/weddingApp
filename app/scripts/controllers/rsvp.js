@@ -6,6 +6,7 @@ angular.module('weddingAppApp')
   $scope.geo = Geo;
   $scope.loading = false;
   $scope.submitted = false;
+  $scope.success = false;
   $scope.error = {};
   $scope.hasError = false;
 
@@ -26,6 +27,7 @@ angular.module('weddingAppApp')
       rsvp.save(null, {
         success: function(rsvp) {
           $scope.loading = false;
+          $scope.success = true;
           $scope.$apply();
         },
         error: function(rsvp, error) {
