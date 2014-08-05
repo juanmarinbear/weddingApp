@@ -9,42 +9,10 @@ body {
   background: #fafafa;
   color: #333;
   overflow: hidden;
+  font-size: 100%;
 }
 
 /* Background Images */
-
-@media screen and (min-width: 35.5em) {
-
-  .bg-home {
-    background-image: url("/images/home-mobile.jpg");
-  }
-
-  .bg-about {
-    background-image: url("/images/about-mobile.jpg");
-  }
-
-  .bg-reception {
-    background-image: url("/images/reception-mobile.jpg");
-  }
-
-  .bg-accommodations {
-    background-image: url("/images/accommodations-mobile.jpg");
-  }
-
-  .bg-transportation {
-    background-image: url("/images/transportation-mobile.jpg");
-  }
-
-  .bg-dresscode {
-    background-image: url("/images/dresscode-mobile.jpg");
-  }
-  .bg-rsvp {
-    background-image: url("/images/rsvp-mobile.jpg");
-  }
-  .bg-checklist {
-    background-image: url("/images/checklist-mobile.jpg");
-  }
-}
 
 .bg {
   background-repeat: no-repeat center center fixed;
@@ -90,6 +58,39 @@ body {
   background-image: url("/images/checklist.jpg");
 }
 
+@media screen and (max-width: 35.5em) {
+
+  .bg-home {
+    background-image: url("/images/home-mobile.jpg");
+  }
+
+  .bg-about {
+    background-image: url("/images/about-mobile.jpg");
+  }
+
+  .bg-reception {
+    background-image: url("/images/reception-mobile.jpg");
+  }
+
+  .bg-accommodations {
+    background-image: url("/images/accommodations-mobile.jpg");
+  }
+
+  .bg-transportation {
+    background-image: url("/images/transportation-mobile.jpg");
+  }
+
+  .bg-dresscode {
+    background-image: url("/images/dresscode-mobile.jpg");
+  }
+  .bg-rsvp {
+    background-image: url("/images/rsvp-mobile.jpg");
+  }
+  .bg-checklist {
+    background-image: url("/images/checklist-mobile.jpg");
+  }
+}
+
 /* Text Styling */
 
 p, ul, li, input, select, label {
@@ -110,10 +111,23 @@ th, tr {
   text-align: center
 }
 
-.header {
+.title, .header {
   font-size: 4rem;
+}
+
+.title {
+  font-family: "ralewayregular";
+  margin: 0.5rem 0 0 0;
+}
+
+.header {
   font-family: "amperzandregular";
   margin: 0.5rem 0 0 0;
+}
+
+.sub-header {
+  font-size: 3rem;
+  font-family: "roboto_slabregular";  
 }
 
 .img-container {
