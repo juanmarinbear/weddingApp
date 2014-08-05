@@ -111,22 +111,18 @@ th, tr {
   text-align: center
 }
 
-.title, .header {
-  font-size: 4rem;
-}
-
-.title {
+.title, .sub-header {
   font-family: "ralewayregular";
-  margin: 0.5rem 0 0 0;
+  font-size: 2.5rem;
 }
 
 .header {
   font-family: "amperzandregular";
   margin: 0.5rem 0 0 0;
+  font-size: 3rem;
 }
 
 .sub-header {
-  font-size: 3rem;
   font-family: "roboto_slabregular";  
 }
 
@@ -214,6 +210,10 @@ th, tr {
   overflow: visible;
   position: absolute;
   transition: all 0.5s linear;
+}
+
+#dresscode {
+  color: #333;
 }
 
 .view {
