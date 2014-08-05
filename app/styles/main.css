@@ -13,43 +13,81 @@ body {
 
 /* Background Images */
 
+@media screen and (min-width: 35.5em) {
+
+  .bg-home {
+    background-image: url("/images/home-mobile.jpg");
+  }
+
+  .bg-about {
+    background-image: url("/images/about-mobile.jpg");
+  }
+
+  .bg-reception {
+    background-image: url("/images/reception-mobile.jpg");
+  }
+
+  .bg-accommodations {
+    background-image: url("/images/accommodations-mobile.jpg");
+  }
+
+  .bg-transportation {
+    background-image: url("/images/transportation-mobile.jpg");
+  }
+
+  .bg-dresscode {
+    background-image: url("/images/dresscode-mobile.jpg");
+  }
+  .bg-rsvp {
+    background-image: url("/images/rsvp-mobile.jpg");
+  }
+  .bg-checklist {
+    background-image: url("/images/checklist-mobile.jpg");
+  }
+}
+
 .bg {
-  background-repeat: no-repeat;
+  background-repeat: no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  /* background-size: 100% auto;
-  background-position: center center;*/
+}
+
+.bg>:first-child {
+  margin-bottom: 3rem;
 }
 
 .bg-home {
-  background-image: url("/images/home.jpg")
+  background-image: url("/images/home.jpg");
 }
 
 .bg-about {
-  background-image: url("/images/about.jpg")
+  background-image: url("/images/about.jpg");
 }
 
 .bg-reception {
-  background-image: url("/images/reception.jpg")
+  background-image: url("/images/reception.jpg");
 }
 
 .bg-accommodations {
-  background-image: url("/images/accommodations.jpg")
+  background-image: url("/images/accommodations.jpg");
 }
 
 .bg-transportation {
-  background-image: url("/images/transportation.jpg")
+  background-image: url("/images/transportation.jpg");
 }
 
 .bg-dresscode {
-  background-image: url("/images/dresscode.jpg")
+  background-image: url("/images/dresscode.jpg");
 }
 
 .bg-rsvp {
-  background-image: url("/images/rsvp.jpg")
+  background-image: url("/images/rsvp.jpg");
 }
 
 .bg-checklist {
-  background-image: url("/images/checklist.jpg")
+  background-image: url("/images/checklist.jpg");
 }
 
 /* Text Styling */
@@ -75,6 +113,7 @@ th, tr {
 .header {
   font-size: 4rem;
   font-family: "amperzandregular";
+  margin: 0.5rem 0 0 0;
 }
 
 .img-container {
@@ -135,7 +174,7 @@ th, tr {
   height: 100%;
 }
 
-.nav-mobile {
+.nav {
   position: fixed;
   bottom: 0;
   height: 3rem;
