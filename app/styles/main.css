@@ -135,21 +135,14 @@ th, tr {
   height: 100%;
 }
 
-.prev, .next {
-  text-align: center;
+.nav-mobile {
   position: fixed;
-  font-size: 6rem;
-  color: #fff;
-  top: 30%;
+  bottom: 0;
+  height: 3rem;
+  background-color: rgba(0, 0, 0, 0.6);
   z-index: 1;
-}
-
-.prev {
-  left: 10%;
-}
-
-.next {
-  right: 10%;
+  width: 100%;
+  color: #fff;
 }
 
 #fixed-view-container {
