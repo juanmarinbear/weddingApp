@@ -22,10 +22,6 @@ body {
   background-size: cover;
 }
 
-.bg>:first-child {
-  margin-bottom: 3rem;
-}
-
 .bg-home {
   background-image: url("/images/home.jpg");
 }
@@ -89,6 +85,14 @@ body {
   .bg-checklist {
     background-image: url("/images/checklist-mobile.jpg");
   }
+
+  .email {
+    font-size: 0.7rem;
+  }
+
+  .dress-code {
+    color: #333;
+  }
 }
 
 /* Text Styling */
@@ -111,18 +115,20 @@ th, tr {
   text-align: center
 }
 
-.header, .save-the-header {
+.header, .jumbo-header {
   font-family: "amperzandregular";
-  margin: 1rem 0;
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 .header {
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #666;
+  margin: 1rem 0 0 0;
 }
 
-.sub-header, .title {
+.jumbo-header {
+  margin: 0;
+}
+
+.sub-header, .title, .jumbo-sub-header {
   font-family: "roboto_slabregular";  
   font-size: 2.5rem;
 }
@@ -141,10 +147,10 @@ th, tr {
 }
 
 .well {
+  border-radius: 1rem;
   background-color: rgba(0, 0, 0, 0.6);
   padding: 1rem;
-  margin: 1rem;
-  border-radius: 1rem;
+  margin: 1rem 1rem 4rem 1rem;
 }
 
 .well p, ul, table {
@@ -238,7 +244,3 @@ th, tr {
 }
 
 /* Checklist */
-
-.checklist a {
-  font-size: 0.8rem;
-}
