@@ -61,14 +61,14 @@
             <div class="pure-u-1 pure-u-md-1-4" ng-hide="data.country.code === 'MX' || data.country.code === 'US'">
               <div class="input-group">
                 <label for="state">{{ txt[lang].inputs.state.label }}</label>
-                <input id="state" type="text" name="state" ng-model="data.state" ng-required="data.rsvp === 'true' && (data.country.code !== 'MX' || data.country.code !== 'US')"></input>
+                <input id="state" type="text" name="state" ng-model="data.state" ng-required="data.rsvp === 'true' && (data.country.code !== 'MX' || data.country.code !== 'US')" placeholder="{{ txt[lang].inputs.state.label }}"></input>
               </div>
             </div>
             <div class="pure-u-1 pure-u-md-1-4" ng-show="data.country.code === 'MX' || data.country.code === 'US'">
               <div class="input-group">
                 <label for="state">{{ txt[lang].inputs.state.label }}</label>
                 <select id="state" name="state" ng-model="data.state" ng-options="state.name for state in geo[data.country.code]" ng-required="data.rsvp === 'true' && (data.country.code !== 'MX' || data.country.code !== 'US')">
-                  <option value="" selected>{{ txt[lang].inputs.state.label.options.default }}</option>
+                  <option value="" selected>{{ txt[lang].inputs.state.options.default }}</option>
                 </select>
               </div>
             </div>

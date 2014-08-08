@@ -63,6 +63,7 @@
       },
       "state" : {
         "label" : "State",
+        "placeholder" : "State",
         "options" : {
           "default" : "-- Select --" 
         },
@@ -205,27 +206,28 @@
       },
       "country" : {
         "label" : "País",
-        "options" : [
-          "-- Seleccionar --" 
-        ],
+        "options" : {
+          "default" : "-- Seleccionar --" 
+        },
         "errors" : {
           "required" : "País obligatorio."
         }
       },
       "state" : {
         "label" : "Estado",
-        "options" : [
-          "-- Seleccionar --" 
-        ],
+        "placeholder" : "Estado",
+        "options" : {
+          "default" : "-- Seleccionar --" 
+        },
         "errors" : {
           "required" : "Estado obligatorio."
         }
       },
       "city" : {
-        "label" : "Ciudad",
-        "placeholder" : "Ciudad",
+        "label" : "Delegación o Municipio",
+        "placeholder" : "Delegación o Municipio",
         "errors" : {
-          "required" : "Ciudad obligatorio."
+          "required" : "Delegación o Municipio obligatorio."
         }
       },
       "zip" : {
@@ -258,7 +260,7 @@
         "options" : {
           "default" : "-- Seleccionar --", 
           "items" : [
-            { "value" : "true", "label" : "Yes" },
+            { "value" : "true", "label" : "Si" },
             { "value" : "false", "label" : "No" }
           ] 
         },
