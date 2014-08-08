@@ -44,6 +44,10 @@ angular.module('weddingAppApp')
     }
   };
 
+  $scope.toggleLang = function () {
+    $scope.lang === 'en' ? $scope.lang = 'es' : $scope.lang = 'en';
+  }
+
   $scope.trustHtml = function (txt) {
     return $sce.trustAsHtml(txt); 
   }

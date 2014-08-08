@@ -137,6 +137,14 @@
           "invalid" : "Guest Email is invalid."
         }
       },
+      "password" : {
+        "label" : "Password",
+        "placeholder" : "Password",
+        "errors" : {
+          "required" : "Password is required.",
+          "invalid" : "Password is invalid."
+        }
+      },
       "submit" : {
         "label" : "Submit"
       }
@@ -144,7 +152,7 @@
   },
   "es": {
     "title" : "RSVP",
-    "successMessage" : "Gracias!",
+    "successMessage" : "¡Gracias!",
     "inputs" : {
       "firstName" : {
         "label" : "Nombre",
@@ -278,6 +286,14 @@
         "errors" : {
           "required" : "Email de acompañante obligatorio.",
           "invalid" : "Email de acompañante es inválido."
+        }
+      },
+      "password" : {
+        "label" : "Contraseña",
+        "placeholder" : "Contraseña",
+        "errors" : {
+          "required" : "Contraseña is obligatoria.",
+          "invalid" : "Contraseña inválida."
         }
       },
       "submit" : {

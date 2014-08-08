@@ -145,6 +145,14 @@
           </div>
         </div>
         <div class="pure-g">
+          <div class="pure-u-1 pure-u-md-1-4">
+            <div class="input-group">
+              <label for="password">{{ txt[lang].inputs.password.label }}</label>
+              <input id="password" type="password" name="password" placeholder="{{ txt[lang].inputs.password.placeholder }}" ng-model="data.password" required></input>
+            </div>
+          </div>
+        </div>
+        <div class="pure-g">
           <div class="pure-u-1">
             <div class="input-group center submit">
               <button type="submit" class="pure-button pure-button-primary" ng-click="submit()">{{ txt[lang].inputs.submit.label}}</button>
@@ -159,6 +167,7 @@
               <li ng-show="rsvpForm.email.$error.required">{{ txt[lang].inputs.email.errors.required }}</li>
               <li ng-show="rsvpForm.email.$error.email">{{ txt[lang].inputs.email.errors.invalid }}</li>
               <li ng-show="rsvpForm.rsvp.$error.required">{{ txt[lang].inputs.rsvp.errors.required }}</li>
+              <li ng-show="rsvpForm.password.$error.required">{{ txt[lang].inputs.password.errors.required }}</li>
               <li ng-show="rsvpForm.hotel.$error.required">{{ txt[lang].inputs.hotel.errors.required }}</li>
               <li ng-show="rsvpForm.country.$error.required">{{ txt[lang].inputs.country.errors.required }}</li>
               <li ng-show="rsvpForm.state.$error.required">{{ txt[lang].inputs.state.errors.required }}</li>
