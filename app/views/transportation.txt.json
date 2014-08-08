@@ -1,0 +1,48 @@
+{
+  "en": {
+    "title" : "Transportation",
+    "sections" : [
+      {
+        "title" : "To Cancun",
+        "paragraphs" : [
+          "To find flights, we recommend <a href=\"http://www.kayak.com\" target=\"_blank\">Kayak</a> or <a href=\"http://www.hipmunk.com\" target=\"_blank\">Hipmunk</a>."
+        ]
+      },
+      {
+        "title" : "From the Airport",
+        "paragraphs" : [
+          "Bus and taxis range from $20 USD to $70 USD."
+        ]
+      },
+      {
+        "title" : "From Blue Bay Grand Esmeralda to Blue Diamond Riviera Maya and viceversa.",
+        "paragraphs" : [
+          "We will arrange transportation for guests staying at the Blue Bay Grand Esmeralda the day of the event."
+        ]
+      }
+    ] 
+  },
+  "es": {
+    "title" : "Transporte",
+    "sections" : [
+      {
+        "title" : "A Cancún",
+        "paragraphs" : [
+          "Para encontrar vuelos, te recomendamos <a href=\"http://www.despegar.com\" target=\"_blank\">Despegar</a> o <a href=\"http://www.expedia.com\" target=\"_blank\">Expedia</a>."
+        ]
+      },
+      {
+        "title" : "Desde el Aeropuerto",
+        "paragraphs" : [
+          "Autobuses y taxis cuestan desde $300 hasta $1,000 pesos."
+        ]
+      },
+      {
+        "title" : "Del Blue Bay Grand Esmeralda al Blue Diamond Riviera Maya y viceversa",
+        "paragraphs" : [
+          "Proveeremos transporte para los invitados hospedados en el Blue Bay Grand Esmeralda el día del evento."
+        ]
+      }
+    ] 
+  }
+}

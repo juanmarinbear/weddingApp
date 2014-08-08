@@ -1,0 +1,288 @@
+{
+  "en": {
+    "title" : "RSVP",
+    "successMessage" : "Thank you!",
+    "inputs" : {
+      "firstName" : {
+        "label" : "First Name",
+        "placeholder" : "First Name",
+        "errors" : {
+          "required" : "First Name is required."
+        }
+      },
+      "lastName" : {
+        "label" : "Last Name",
+        "placeholder" : "Last Name",
+        "errors" : {
+          "required" : "Last Name is required."
+        }
+      },
+      "email" : {
+        "label" : "Email",
+        "placeholder" : "Email",
+        "errors" : {
+          "required" : "Email is required.",
+          "invalid" : "Email is invalid."
+        }
+      },
+      "rsvp" : {
+        "label" : "RSVP",
+        "options" : {
+          "default" : "-- Select --", 
+          "items" : [
+            { "label" : "Yes", "value" : "true" },
+            { "label" : "No", "value" : "false" }
+          ] 
+        },
+        "errors" : {
+          "required" : "RSVP is required."
+        }
+      },
+      "hotel" : {
+        "label" : "Where will you stay?",
+        "options" : {
+          "default" : "-- Select --", 
+          "items" : [
+            { "value" : "blueDiamond", "label" : "Blue Diamond Riviera Maya" },
+            { "value" : "blueBay", "label" : "Blue Bay Grand Esmeralda" },
+            { "value" : "other", "label" : "Other" }
+          ] 
+        },
+        "errors" : {
+          "required" : "Hotel is required."
+        }
+      },
+      "country" : {
+        "label" : "Country",
+        "options" : {
+          "default" : "-- Select --" 
+        },
+        "errors" : {
+          "required" : "Country is required."
+        }
+      },
+      "state" : {
+        "label" : "State",
+        "options" : {
+          "default" : "-- Select --" 
+        },
+        "errors" : {
+          "required" : "State is required."
+        }
+      },
+      "city" : {
+        "label" : "City",
+        "placeholder" : "City",
+        "errors" : {
+          "required" : "City is required."
+        }
+      },
+      "zip" : {
+        "label" : "Zip Code",
+        "placeholder" : "Zip Code",
+        "errors" : {
+          "required" : "Zip is required."
+        }
+      },
+      "street" : {
+        "label" : "Street",
+        "placeholder" : "Street",
+        "errors" : {
+          "required" : "Street is required."
+        }
+      },
+      "number" : {
+        "label" : "Number",
+        "placeholder" : "Number",
+        "errors" : {
+          "required" : "Number is required."
+        }
+      },
+      "apt" : {
+        "label" : "Apt / Suite",
+        "placeholder" : "Apt / Suite"
+      },
+      "guest" : {
+        "label" : "Bringing a guest?",
+        "options" : {
+          "default" : "-- Select --", 
+          "items" : [
+            { "value" : "true", "label" : "Yes" },
+            { "value" : "false", "label" : "No" }
+          ] 
+        },
+        "errors" : {
+          "required" : "Are you bringing a guest?"
+        }
+      },
+      "guestName" : {
+        "label" : "First Name",
+        "placeholder" : "First Name",
+        "errors" : {
+          "required" : "Guest Name is required."
+        }
+      },
+      "guestLast" : {
+        "label" : "Last Name",
+        "placeholder" : "Last Name",
+        "errors" : {
+          "required" : "Guest Last Name is required."
+        }
+      },
+      "guestEmail" : {
+        "label" : "Email",
+        "placeholder" : "Email",
+        "errors" : {
+          "required" : "Guest Email is required.",
+          "invalid" : "Guest Email is invalid."
+        }
+      },
+      "submit" : {
+        "label" : "Submit"
+      }
+    }
+  },
+  "es": {
+    "title" : "RSVP",
+    "successMessage" : "Gracias!",
+    "inputs" : {
+      "firstName" : {
+        "label" : "Nombre",
+        "placeholder" : "Nombre",
+        "errors" : {
+          "required" : "Nombre obligatorio."
+        }
+      },
+      "lastName" : {
+        "label" : "Apellido",
+        "placeholder" : "Apellido",
+        "errors" : {
+          "required" : "Apellido obligatorio."
+        }
+      },
+      "email" : {
+        "label" : "Email",
+        "placeholder" : "Email",
+        "errors" : {
+          "required" : "Email obligatorio.",
+          "invalid" : "Email inválido."
+        }
+      },
+      "rsvp" : {
+        "label" : "RSVP",
+        "options" : {
+          "default" : "-- Seleccionar --", 
+          "items" : [
+            { "value" : "true", "label" : "Si" },
+            { "value" : "false", "label" : "No" }
+          ] 
+        },
+        "errors" : {
+          "required" : "RSVP obligatorio."
+        }
+      },
+      "hotel" : {
+        "label" : "¿Dónde te quedarás?",
+        "options" : {
+          "default" : "-- Seleccionar --", 
+          "items" : [
+            { "value" : "blueDiamond", "label" : "Blue Diamond Riviera Maya" },
+            { "value" : "blueBay", "label" : "Blue Bay Grand Esmeralda" },
+            { "value" : "other", "label" : "Otro" }
+          ] 
+        },
+        "errors" : {
+          "required" : "Hotel obligatorio."
+        }
+      },
+      "country" : {
+        "label" : "País",
+        "options" : [
+          "-- Seleccionar --" 
+        ],
+        "errors" : {
+          "required" : "País obligatorio."
+        }
+      },
+      "state" : {
+        "label" : "Estado",
+        "options" : [
+          "-- Seleccionar --" 
+        ],
+        "errors" : {
+          "required" : "Estado obligatorio."
+        }
+      },
+      "city" : {
+        "label" : "Ciudad",
+        "placeholder" : "Ciudad",
+        "errors" : {
+          "required" : "Ciudad obligatorio."
+        }
+      },
+      "zip" : {
+        "label" : "Código Postal",
+        "placeholder" : "Código Postal",
+        "errors" : {
+          "required" : "Código Postal obligatorio."
+        }
+      },
+      "street" : {
+        "label" : "Calle",
+        "placeholder" : "Calle",
+        "errors" : {
+          "required" : "Calle obligatoria."
+        }
+      },
+      "number" : {
+        "label" : "Num Exterior",
+        "placeholder" : "Num Exterior",
+        "errors" : {
+          "required" : "Número Exterior obligatorio."
+        }
+      },
+      "apt" : {
+        "label" : "Interior",
+        "placeholder" : "Interior"
+      },
+      "guest" : {
+        "label" : "¿Acompañante?",
+        "options" : {
+          "default" : "-- Seleccionar --", 
+          "items" : [
+            { "value" : "true", "label" : "Yes" },
+            { "value" : "false", "label" : "No" }
+          ] 
+        },
+        "errors" : {
+          "required" : "¿Traerás acompañante?"
+        }
+      },
+      "guestName" : {
+        "label" : "Nombre",
+        "placeholder" : "Nombre",
+        "errors" : {
+          "required" : "Nombre de acompañante obligatorio."
+        }
+      },
+      "guestLast" : {
+        "label" : "Apellido",
+        "placeholder" : "Apellido",
+        "errors" : {
+          "required" : "Apellido de acompañante obligatorio."
+        }
+      },
+      "guestEmail" : {
+        "label" : "Email",
+        "placeholder" : "Email",
+        "errors" : {
+          "required" : "Email de acompañante obligatorio.",
+          "invalid" : "Email de acompañante es inválido."
+        }
+      },
+      "submit" : {
+        "label" : "Enviar"
+      }
+    }
+  }
+}

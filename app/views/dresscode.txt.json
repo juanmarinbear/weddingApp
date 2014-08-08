@@ -1,0 +1,20 @@
+{
+  "en": {
+    "title" : "Dresscode",
+    "subTitle" : "Beach Formal",
+    "paragraphs" : [
+      "Dress to impress, but also dress for the elements (sun, sand and water).  Anything you would wear to a nice restaurant on a summer day is appropiate.",
+      "<strong>Him: </strong>Summer suit and sandals.",
+      "<strong>Her: </strong>A more formal sundress with flat sandals."
+    ] 
+  },
+  "es": {
+    "title" : "Vestimenta",
+    "subTitle" : "Playa Formal",
+    "paragraphs" : [
+      "Viste para impresionar y los elementos (sol, arena y agua).  Cualquier cosa que vestirías para un buen restaurante en un día de verano es apropiado.",
+      "<strong>Ellos: </strong>Traje de verano y sandalias.",
+      "<strong>Ellas: </strong>Un vestido de sol formal con sandalias."
+    ] 
+  }
+}

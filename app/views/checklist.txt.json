@@ -1,0 +1,64 @@
+{
+  "en": {
+    "title" : "Checklist",
+    "subTitle" : "Deadline for Hotel Reservations is August the 31st!",
+    "toDos" : [
+      { 
+        "title" : "To Do",
+        "list" : [
+          "Fill out the RSVP form.",
+          "Reserve your flights."
+        ]
+      },
+      { 
+        "title" : "Blue Bay Grand Esmeralda",
+        "list" : [
+          "Complete the <a href=\"/images/blueBayReservation4798_en.pdf\" target=\"_blank\">Hotel Reservation Form</a>.",
+          "Send the Hotel Reservation form to <a class=\"email\" href=\"mailto:reservas1.bbge@bluebayresorts.com\">reservas1.bbge@bluebayresorts.com.",
+          "Complete <a href=\"/images/blueBayCCAuth_en.doc\" target=\"_blank\">Credit Card Authorization Form</a>.",
+          "Send Credit Card Authorization Form along a copy of the front and back of your Credit Card and a copy of a photo id to <a class=\"email\" href=\"mailto:reservas1.bbge@bluebayresorts.com\">reservas1.bbge@bluebayresorts.com."
+        ]
+      },
+      { 
+        "title" : "Blue Diamond Riviera Maya",
+        "list" : [
+          "Complete the <a href=\"/images/blueDiamondReservation325_en.pdf\" target=\"_blank\">Hotel Reservation Form</a>.",
+          "Send the Hotel Reservation form to <a class=\"email\" href=\"mailto:reservas.bbdiamond@bluebayresorts.com\">reservas.bbdiamond@bluebayresorts.com.</a>",
+          "Complete <a href=\"/images/blueDiamondCCAuth_en.docx\" target=\"_blank\">Credit Card Authorization Form</a>.",
+          "Send Credit Card Authorization Form along a copy of the front and back of your Credit Card and a copy of a photo id to <a class=\"email\" href=\"mailto:jrecep.bbdiamond@bluebayresorts.com\">jrecep.bbdiamond@bluebayresorts.com.</a>"
+        ]
+      }
+    ]
+  },
+  "es": {
+    "title" : "Checklist",
+    "subTitle" : "Fecha límite para reservaciones es Agosto 31!",
+    "toDos" : [
+      { 
+        "title" : "Tareas",
+        "list" : [
+          "Llenar forma RSVP.",
+          "Reservar tu vuelo."
+        ]
+      },
+      { 
+        "title" : "Blue Bay Grand Esmeralda",
+        "list" : [
+          "Completa el <a href=\"/images/blueBayReservation4798_es.pdf\" target=\"_blank\">Formato de Reservación</a>.",
+          "Envía el Formato de Reservación a <a class=\"email\" href=\"mailto:reservas1.bbge@bluebayresorts.com\">reservas1.bbge@bluebayresorts.com.",
+          "Completa la <a href=\"/images/blueBayCCAuth_es.docx\" target=\"_blank\">Forma de Autorización de Tarjeta de Crédito</a>.",
+          "Envía la Forma de Autorización de Tarjeta de Crédito junto con copia de la parte delantera y trasera de tu tarjeta de crédito y copia de tu identificación oficial con fotografía a <a class=\"email\" href=\"mailto:reservas1.bbge@bluebayresorts.com\">reservas1.bbge@bluebayresorts.com."
+        ]
+      },
+      { 
+        "title" : "Blue Diamond Riviera Maya",
+        "list" : [
+          "Completa el <a href=\"/images/blueDiamondReservation325_es.pdf\" target=\"_blank\">Formato de Reservación</a>.",
+          "Envía el Formato de Reservación a <a class=\"email\" href=\"mailto:reservas.bbdiamond@bluebayresorts.com\">reservas.bbdiamond@bluebayresorts.com.</a>",
+          "Completa la<a href=\"/images/blueDiamondCCAuth_es.docx\" target=\"_blank\">Forma de Autorización de Tarjeta de Crédito</a>.",
+          "Envía la Forma de Autorización de Tarjeta de Crédito junto con copia de la parte delantera y trasera de tu tarjeta de crédito y copia de tu identificación oficial con fotografía a <a class=\"email\" href=\"mailto:jrecep.bbdiamond@bluebayresorts.com\">jrecep.bbdiamond@bluebayresorts.com.</a>"
+        ]
+      }
+    ]
+  }
+}

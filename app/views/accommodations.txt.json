@@ -1,0 +1,213 @@
+{
+  "en": {
+    "title" : "Accommodations",
+    "hotels" : [
+      {
+        "title" : "Blue Diamond Riviera Maya.  Adults only.",
+        "subTitle" : "Packages include:",
+        "list" : [
+          "All suites adults only resort (18 years and older).", 
+          "Unlimited access to the water circuit at The Spa by Blue Diamond.", 
+          "More beachfront per room than any other hotel in the Riviera Maya.", 
+          "Beverage service from premium brands.", 
+          "Sparkling wine bottle and fruit plate on the day of arrival.", 
+          "Personalized mini bar with premium beverages and daily refill.", 
+          "1 free ocean dive or snorkeling tour per person per stay.", 
+          "Oversized rooms and bathrooms with two rain drop showers.", 
+          "Private outdoor bathtubs and plunge pools.", 
+          "Complimentary high speed internet and wireless access.", 
+          "Complimentary local and long distance phone calls.", 
+          "No reservations required in our restaurants.", 
+          "Marina on site.", 
+          "Temazcal ceremonies (1 per stay, previous reservation required).", 
+          "A paradise surrounded by water river ways, lagoons and a mystical Mayan Cenote.", 
+          "24 hour in-room Champagne Breakfast available.",
+          "All gratuities included."
+        ],
+        "paragraphs" : [
+          "Reservation and Payment <strong>must</strong> be completed before August the 1st, 2014.",
+          "Rates available for 3 days before and 3 days after the wedding.",
+          "<a href=\"http://www.bluediamond-rivieramaya.com\" target=\"_blank\">Hotel Information.</a>"
+        ], 
+        "table" : {
+          "headers" : [
+            "Room",
+            "USD x Person x Night"
+          ],
+          "rows" : [ 
+            [ 
+              "Patio Jr. Suite (DBL)",
+              "$210"
+            ],
+            [ 
+              "Cenote or Laguna Jr. Suite (DBL)",
+              "$250"
+            ],
+            [ 
+              "Patio Jr. Suite (SGL)",
+              "$315"
+            ],
+            [ 
+              "Cenote or Lagunar Jr. Suite (SGL)",
+              "$375"
+            ]
+          ]  
+        }
+      },
+      {
+        "title" : "Blue Bay Grand Esmeralda.  Kids friendly.",
+        "subTitle" : "Packages include:",
+        "list" : [
+          "Elegant accommodations with private balcony or terrace.",
+          "Dedicated concierge in each room block.",
+          "Unlimited domestic and international beverages, beer, soft drinks, wine, cocktails and bottled water.",
+          "Unlimited dining at 6 specialty a-la-carte restaurants, all with air-conditioning.",
+          "In-room mini bar.",
+          "Free WiFi in lobby.",
+          "All Meals Included Every Day (Buffet Breakfast, Buffet Lunch, Buffet or a la Carte Dinner).",
+          "9 Restaurants including 3 Buffet Restaurants and 6 a la Carte.",
+          "2 Tennis Courts (unlimited use daily within schedule of operation, on first come, first serve basis).",
+          "Water sports: Windsurfing, Sailing and Kayaking (depending on ocean conditions).",
+          "Gym: Free Use of Exercise Equipment.",
+          "3 Gorgeous lagoon-style swimming pools with children’s area and in-pool spinning bikes.",
+          "Kids Club (nursery, mini-cafeteria, video game room, playground, sports activities).",
+          "All Gratuities Included."
+        ],
+        "paragraphs" : [
+          "Reservation and Payment <strong>must</strong> be completed before August the 31st, 2014.",
+          "Rates available for 3 days before and 3 days after the wedding.",
+          "<a href=\"http://www.bluebaygrandesmeralda.com\" target=\"_blank\">Hotel Information</a>"
+        ], 
+        "table" : {
+          "headers" : [
+            "Room",
+            "USD x Person x Night"
+          ],
+          "rows" : [ 
+            [ 
+              "Single Suite",
+              "$125"
+            ],
+            [ 
+              "Double Suite",
+              "$75"
+            ],
+            [ 
+              "Kids 4 to 12 years old",
+              "$40"
+            ],
+            [ 
+              "Kids younger than 4 years old",
+              "Free"
+            ]
+          ]  
+        }
+      }
+    ]
+  },
+  "es": {
+    "title" : "Hospedaje",
+    "hotels" : [
+      {
+        "title" : "Blue Diamond Riviera Maya.  Sólo Adultos.",
+        "subTitle" : "Paquetes incluyen:",
+        "list" : [
+          "Resort sólo para adultos (18 años en adelante).",
+          "Acceso ilimitado al circuito de agua en The Spa by Blue Diamond.",
+          "Más frente al mar y arena que cualquier otro hotel en Riviera Maya.",
+          "Servicio de bebidas de marcas premium.",
+          "Botella de vino espumoso y plato de frutas en el día de llegada.",
+          "Mini bar personalizado con bebidas premium y refill diario.",
+          "Un tour de snorkeling gratis por persona por estancia.",
+          "Habitaciones gigantes con baños con dos regaderas de lluvia.",
+          "Tinas exteriores privadas y albercas de clavados.",
+          "Internet inalámbrico de alta velocidad gratuito.",
+          "Llamadas locales y de larga distancia gratuitas.",
+          "Restaurantes no requieren reservación.",
+          "Marina.",
+          "Una ceremonía de Temazcal incluída por estancia (previa reservación).",
+          "Un paraíso rodeado por agua mediante ríos, lagunas y un místico cenote Maya.",
+          "Breakfast de Champagne disponible las 24 horas.",
+          "Propinas incluídas."
+        ],
+        "paragraphs" : [
+          "Reservación y Pago <strong>se debe</strong> completar antes del 31 de Agosto, 2014.",
+          "Tarifas disponibles 3 días antes y 3 días despues del evento.",
+          "<a href=\"http://www.bluediamond-rivieramaya.com\" target=\"_blank\">Información del Hotel</a>."
+        ], 
+        "table" : {
+          "headers" : [
+            "Habitación",
+            "MXN x Persona x Noche"
+          ],
+          "rows" : [ 
+            [ 
+              "Patio Jr. Suite (DBL)",
+              "$2,788"
+            ],
+            [ 
+              "Cenote or Laguna Jr. Suite (DBL)",
+              "$3,320"
+            ],
+            [ 
+              "Patio Jr. Suite (SGL)",
+              "$4,183"
+            ],
+            [ 
+              "Cenote or Lagunar Jr. Suite (SGL)",
+              "$4,980"
+            ]
+          ]  
+        }
+      },
+      {
+        "title" : "Blue Bay Grand Esmeralda.  Niños bienvenidos.",
+        "subTitle" : "Paquetes incluyen:",
+        "list" : [
+          "Habitadiones elegantes con balcón privado o terraza.",
+          "Concierge dedicado en cada bloque de habitaciones.",
+          "Bebidas nacionales e internacionales ilimitadas (cerveza, refrescos, vino, cocteles y agua embotellada).",
+          "Desayuno, brunch, comida y cena incluídos en 6 restaurantes a la carta con aire acondicionado.",
+          "Mini bar en habitación.",
+          "WiFi gratuito en lobby.",
+          "9 restaurantes, 3 de buffet y 6 a la carta.",
+          "2 canchas de tennis (uso diario ilimitado en horarios de operación).",
+          "Deportes acuáticos: Windsurfing, Veleo y Kayaking.",
+          "Gym: Uso gratis de equipo de ejercicio.",
+          "3 hermosas albarcas estilo laguna con área de niños y bicicletas de spinning.",
+          "Kids Club (guardería, mini-cafetería, video juegos y actividades deportivas).",
+          "Propinas incluídas."
+        ],
+        "paragraphs" : [
+          "Reservación y Pago <strong>se debe</strong> completar antes del 31 de Agosto, 2014.",
+          "Tarifas disponibles 3 días antes y 3 días despues del evento.",
+          "<a href=\"http://www.bluebaygrandesmeralda.com\" target=\"_blank\">Información dle hotel</a>."
+        ], 
+        "table" : {
+          "headers" : [
+            "Habitación",
+            "MXN x Persona x Noche"
+          ],
+          "rows" : [ 
+            [ 
+              "Suite Sencilla",
+              "$1,575"
+            ],
+            [ 
+              "Suite Doble",
+              "$1,050"
+            ],
+            [ 
+              "Menores de 4 a 12 años",
+              "$525"
+            ],
+            [ 
+              "Menores de 4 años",
+              "Gratis"
+            ]
+          ]  
+        }
+      }
+    ]
+  }
+}

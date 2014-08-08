@@ -15,12 +15,12 @@
     <div class="pure-u-1-2">
       <p class="center" ng-hide="page.first">
         <i class="icon ion-chevron-left"></i>
-        <span ng-click="prev()" >Prev</span>
+        <span ng-click="prev()" >{{ txt[lang].prev }}</span>
       </p>
     </div>
     <div class="pure-u-1-2">
       <p class="center" ng-hide="page.last">
-        <span ng-click="next()">Next</span>
+      <span ng-click="next()">{{ txt[lang].next }}</span>
         <i class="icon ion-chevron-right"></i>
       </p>
     </div>

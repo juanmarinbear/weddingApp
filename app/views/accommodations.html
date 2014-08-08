@@ -1,108 +1,25 @@
-<h1 class="header">Accommodations</h1>
+<h1 class="header">{{ txt[lang].title }}</h1>
 <div class="pure-g">
   <div class="pure-u-md-1-6"></div>
   <div class="pure-u-1 pure-u-2-3">
     <div class="pure-g">
-      <div class="pure-u-1 pure-u-md-1-2">
+      <div class="pure-u-1 pure-u-md-1-2" ng-repeat="hotel in txt[lang].hotels">
         <div class="well">
-          <h3>Blue Diamond Riviera Maya.  Adults only.</h3>
-          <p>Packages include:</p>
+          <h3>{{ hotel.title }}</h3>
+          <p>{{ hotel.subTitle }}</p>
           <ul>
-            <li>All suites adults only resort (18 years and older).</li>
-            <li>Unlimited access to the water circuit at The Spa by Blue Diamond.</li>
-            <li>More beachfront per room than any other hotel in the Riviera Maya.</li>
-            <li>Beverage service from premium brands.</li>
-            <li>Sparkling wine bottle and fruit plate on the day of arrival.</li>
-            <li>Personalized mini bar with premium beverages and daily refill.</li>
-            <li>1 free ocean dive or snorkeling tour per person per stay.</li>
-            <li>Oversized rooms and bathrooms with two rain drop showers.</li>
-            <li>Private outdoor bathtubs and plunge pools.</li>
-            <li>Complimentary high speed internet and wireless access.</li>
-            <li>Complimentary local and long distance phone calls.</li>
-            <li>No reservations required in our restaurants.</li>
-            <li>Marina on site.</li>
-            <li>Temazcal ceremonies (1 per stay, previous reservation required).</li>
-            <li>A paradise surrounded by water river ways, lagoons and a mystical Mayan Cenote.</li>
-            <li>24 hour in-room Champagne Breakfast available.</li>
-            <li>All gratuities included.</li>
+            <li ng-repeat="item in hotel.list">{{ item }}</li>
           </ul>
-          <p>Reservation and Payment <strong>must</strong> be completed before September the 1st, 2014.</p>
-          <p>Rates available for 3 days before and 3 days after the wedding.</p>
-          <p><a href="http://www.bluediamond-rivieramaya.com" target="_blank">Hotel Information</a></p>
+          <p ng-repeat="paragraph in hotel.paragraphs" ng-bind-html="trustHtml(paragraph)"></p>
           <table class="pure-table">
             <thead>
               <tr>
-                <th>Room</th>
-                <th>USD x Person x Night</th>
+                <th ng-repeat="header in hotel.table.headers">{{ header }}</th>
               </tr>
             </thead>
             <tbody>
-              <tr>
-                <td>Patio Jr. Suite (DBL)</td>
-                <td>$210</td>
-              </tr>
-              <tr>
-                <td>Cenote or Laguna Jr. Suite (DBL)</td>
-                <td>$250</td>
-              </tr>
-              <tr>
-                <td>Patio Jr. Suite (SGL)</td>
-                <td>$315</td>
-              </tr>
-              <tr>
-                <td>Cenote or Lagunar Jr. Suite (SGL)</td>
-                <td>$375</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-      <div class="pure-u-1 pure-u-md-1-2">
-        <div class="well">
-          <h3>Blue Bay Grand Esmeralda.  With kids.</h3>
-          <p>Packages include:</p>
-          <ul>
-            <li>Elegant accommodations with private balcony or terrace.</li>
-            <li>Dedicated concierge in each room block.</li>
-            <li>Unlimited domestic and international beverages, beer, soft drinks, wine, cocktails and bottled water.</li>
-            <li>Unlimited dining at 6 specialty a-la-carte restaurants, all with air-conditioning.</li>
-            <li>In-room mini bar.</li>
-            <li>Free WiFi in lobby.</li>
-            <li>All Meals Included Every Day (Buffet Breakfast, Buffet Lunch, Buffet or a la Carte Dinner).</li>
-            <li>9 Restaurants including 3 Buffet Restaurants and 6 a la Carte.</li>
-            <li>2 Tennis Courts (unlimited use daily within schedule of operation, on first come, first serve basis). Includes equipment (balls and rackets), however proper attire and court shoes are required.</li>
-            <li>Water sports: Windsurfing, Sailing and Kayaking (depending on ocean conditions).</li>
-            <li>Gym: Free Use of Exercise Equipment.</li>
-            <li>3 Gorgeous lagoon-style swimming pools with children’s area and in-pool spinning bikes.</li>
-            <li>Kids Club (nursery, mini-cafeteria, video game room, playground, sports activities).</li>
-            <li>All Gratuities Included.</li>
-          </ul>
-          <p>Reservation and Payment <strong>must</strong> be completed before September the 1st, 2014.</p>
-          <p>Rates available for 3 days before and 3 days after the wedding.</p>
-          <p><a href="http://www.bluebaygrandesmeralda.com" target="_blank">Hotel Information</a></p>
-          <table class="pure-table">
-            <thead>
-              <tr>
-                <th>Room</th>
-                <th>USD x Person x Night</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Single Suite</td>
-                <td>$125</td>
-              </tr>
-              <tr>
-                <td>Double Suite</td>
-                <td>$75</td>
-              </tr>
-              <tr>
-                <td>Kids 4 to 12 years old</td>
-                <td>$40</td>
-              </tr>
-              <tr>
-                <td>Kids younger than 4 years old</td>
-                <td>Free</td>
+              <tr ng-repeat="row in hotel.table.rows">
+                <td ng-repeat="text in row">{{ text }}</td>
               </tr>
             </tbody>
           </table>

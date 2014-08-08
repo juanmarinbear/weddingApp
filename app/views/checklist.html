@@ -1,28 +1,15 @@
-<h1 class="header">Checklist</h1>
+<h1 class="header">{{ txt[lang].title }}</h1>
 <div class="pure-g">
   <div class="pure-u-md-1-6"></div>
   <div class="pure-u-1 pure-u-md-2-3">
     <div class="well">
-      <h2>Deadline for Hotel Reservations is August the 31st!</h2>
-      <p><strong>To Do</strong></p>
-      <ul class="checklist">
-        <li>Fill out the RSVP form.</li>
-        <li>Reserve your flights.</li>
-      </ul>
-      <p><strong>Blue Bay Grand Esmeralda</strong></p>
-      <ul class="checklist">
-        <li>Complete the <a href="/images/blueBayReservation4798_en.pdf" target="_blank">Hotel Reservation Form</a>.</li>
-        <li>Send the Hotel Reservation form to <a class="email" href="mailto:reservas1.bbge@bluebayresorts.com">reservas1.bbge@bluebayresorts.com.</a>
-        <li>Complete <a href="/images/ccAuth_en.docx" target="_blank">Credit Card Authorization Form</a>.</li>
-        <li>Send Credit Card Authorization Form along a copy of the front and back of your Credit Card and a copy of a photo id to <a class="email" href="mailto:jrecep.bbdiamond@bluebayresorts.com">jrecep.bbdiamond@bluebayresorts.com.</a>
-      </ul>
-      <p><strong>Blue Diamond Riviera Maya</strong></p>
-      <ul class="checklist">
-        <li>Complete the <a href="/images/blueDiamondReservation325_en.pdf" target="_blank">Hotel Reservation Form</a>.</li>
-        <li>Send the Hotel Reservation form to <a class="email" href="mailto:reservas.bbdiamond@bluebayresorts.com">reservas.bbdiamond@bluebayresorts.com.</a>
-        <li>Complete <a href="/images/ccAuth_en.docx" target="_blank">Credit Card Authorization Form</a>.</li>
-        <li>Send Credit Card Authorization Form along a copy of the front and back of your Credit Card and a copy of a photo id to <a class="email" href="mailto:jrecep.bbdiamond@bluebayresorts.com">jrecep.bbdiamond@bluebayresorts.com.</a>
-      </ul>
+      <h2>{{ txt[lang].subTitle }}</h2>
+      <div ng-repeat="todo in txt[lang].toDos">
+        <h3 class="left">{{ todo.title }}</h3>
+        <ul class="checklist">
+          <li ng-repeat="item in todo.list" ng-bind-html="trustHtml(item)"></li>
+        </ul>
+      </div>
     </div>
   </div>
   <div class="pure-u-md-1-6"></div>

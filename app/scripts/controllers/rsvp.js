@@ -1,7 +1,12 @@
 'use strict';
 
 angular.module('weddingAppApp')
-.controller('RsvpCtrl', ['$scope', 'Geo', 'Parse', function ($scope, Geo, Parse) {
+.controller('RsvpCtrl', ['$scope', '$http', 'Geo', 'Parse', function ($scope, $http, Geo, Parse) {
+  $http.get('/views/rsvp.txt.json')
+    .then(function(res) {
+      $scope.txt = res.data;
+    });
+
   $scope.data = {};
   $scope.geo = Geo;
   $scope.loading = false;
@@ -40,7 +45,6 @@ angular.module('weddingAppApp')
         }
       });
     } else {
-      console.log('Invalid form');
       $scope.loading = false;
       $scope.submitted = true;
     }

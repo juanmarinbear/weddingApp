@@ -1,10 +1,9 @@
 'use strict';
 
 angular.module('weddingAppApp')
-  .controller('AboutCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+  .controller('AboutCtrl', function ($scope, $http) {
+    $http.get('/views/about.txt.json')
+      .then(function(res) {
+        $scope.txt = res.data;
+      });
   });

@@ -1,19 +1,11 @@
-<h1 class="header">Transportation</h1>
+<h1 class="header">{{ txt[lang].title }}</h1>
 <div class="pure-g">
   <div class="pure-u-md-1-6"></div>
   <div class="pure-u-1 pure-u-2-3">
     <div class="well">
-      <div>
-        <p><strong>To Cancún</strong></p>
-        <p>To find flights, we recommend <a href="http://www.kayak.com">Kayak</a> or <a href="http://www.hipmunk.com">Hipmunk</a>.</p>
-      </div>
-      <div>
-        <p><strong>From the Airport</strong></p>
-        <p>Bus and taxis range from $20 USD to $70 USD.</p>
-      </div>
-      <div>
-        <p><strong>From Blue Bay Grand Esmeralda to Blue Diamond Riviera Maya.</strong></p>
-        <p>We will arrange transportation for guests staying at the Blue Bay Grand Esmeralda.</p>
+      <div ng-repeat="section in txt[lang].sections">
+        <h3 class="left">{{ section.title }}</h3>
+        <p ng-repeat="paragraph in section.paragraphs" ng-bind-html="trustHtml(paragraph)"></p>
       </div>
     </div>
   </div>
