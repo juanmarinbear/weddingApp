@@ -6,7 +6,7 @@
       <div class="pure-u-1 pure-u-md-1-2" ng-repeat="hotel in txt[lang].hotels">
         <div class="well">
           <h3>{{ hotel.title }}</h3>
-          <p ng-repeat="subtitle in hotel.subtitles">{{ hotel.subtitle }}</p>
+          <p ng-repeat="subtitle in hotel.subtitles">{{ subtitle }}</p>
           <ul>
             <li ng-repeat="item in hotel.list">{{ item }}</li>
           </ul>
