@@ -4,7 +4,9 @@
     "hotels" : [
       {
         "title" : "Blue Diamond Riviera Maya.  Adults only.",
-        "subTitle" : "Packages include:",
+        "subtitles" : [
+          "Packages include:"
+        ],
         "list" : [
           "All suites adults only resort (18 years and older).", 
           "Unlimited access to the water circuit at The Spa by Blue Diamond.", 
@@ -56,7 +58,10 @@
       },
       {
         "title" : "Blue Bay Grand Esmeralda.  Kids friendly.",
-        "subTitle" : "Packages include:",
+        "subtitles" : [
+          "Only available if you are traveling with kids.  Else stay at the Blue Diamond.",
+          "Packages include:"
+        ],
         "list" : [
           "Elegant accommodations with private balcony or terrace.",
           "Dedicated concierge in each room block.",
@@ -110,7 +115,9 @@
     "hotels" : [
       {
         "title" : "Blue Diamond Riviera Maya.  Sólo Adultos.",
-        "subTitle" : "Paquetes incluyen:",
+        "subtitles" : [
+          "Paquetes incluyen:"
+        ],
         "list" : [
           "Resort sólo para adultos (18 años en adelante).",
           "Acceso ilimitado al circuito de agua en The Spa by Blue Diamond.",
@@ -162,7 +169,10 @@
       },
       {
         "title" : "Blue Bay Grand Esmeralda.  Niños bienvenidos.",
-        "subTitle" : "Paquetes incluyen:",
+        "subtitles" : [
+          "Sólo disponible si viajan con menores de edad.  Si no, hospédense en el Blue Diamond.",
+          "Paquetes incluyen:"
+        ],
         "list" : [
           "Habitadiones elegantes con balcón privado o terraza.",
           "Concierge dedicado en cada bloque de habitaciones.",
