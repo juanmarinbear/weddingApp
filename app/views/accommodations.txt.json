@@ -39,19 +39,19 @@
           "rows" : [ 
             [ 
               "Patio Jr. Suite (DBL)",
-              "$210"
+              "$199"
             ],
             [ 
               "Cenote or Laguna Jr. Suite (DBL)",
-              "$250"
+              "$240"
             ],
             [ 
               "Patio Jr. Suite (SGL)",
-              "$315"
+              "$304"
             ],
             [ 
               "Cenote or Lagunar Jr. Suite (SGL)",
-              "$375"
+              "$365"
             ]
           ]  
         }
@@ -145,24 +145,24 @@
         "table" : {
           "headers" : [
             "Habitación",
-            "MXN x Persona x Noche"
+            "USD x Persona x Noche"
           ],
           "rows" : [ 
             [ 
               "Patio Jr. Suite (DBL)",
-              "$2,788"
+              "$199"
             ],
             [ 
               "Cenote or Laguna Jr. Suite (DBL)",
-              "$3,320"
+              "$240"
             ],
             [ 
               "Patio Jr. Suite (SGL)",
-              "$4,183"
+              "$304"
             ],
             [ 
               "Cenote or Lagunar Jr. Suite (SGL)",
-              "$4,980"
+              "$365"
             ]
           ]  
         }
